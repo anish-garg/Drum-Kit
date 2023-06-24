@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(39, 74, 75);
+    text-align: center;
+}
+
+.drum {
+    display: inline-block;
+    text-align: center;
+    border: 10px solid rgb(11, 41, 92);
+    padding: 50px;
+    margin-top: 125px;
+    margin-left: 30px;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow: 3px 3px white;
+}
+
+#title {
+    font-size: 70px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.end {
+    padding-top: 75px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pressed {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 255, 0.1);
+    opacity: 0.5;
+}
+
+#W {
+    background-image: url("tom1.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+
+}
+
+#A {
+    background-image: url("tom2.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
+
+#S {
+    background-image: url("tom3.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
+
+#D {
+    background-image: url("tom4.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
+
+#J {
+    background-image: url("crash.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
+
+#K {
+    background-image: url("snare.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
+
+#L {
+    background-image: url("kick.png");
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
